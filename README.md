@@ -5,7 +5,7 @@
 [![Angular 22](https://img.shields.io/badge/Angular-22-DD0031?logo=angular&logoColor=white)](https://angular.dev/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.9%2B-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
 [![FFmpeg](https://img.shields.io/badge/FFmpeg-Powered-007808?logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 
 **CleanMark AI** is a full-stack web studio that removes unwanted watermarks, logos, and text overlays from images and videos without degrading original quality, while simultaneously converting media into social-ready aspect ratios (**Instagram 4:5 Portrait Feed**, **9:16 Reels/TikTok/Shorts**, **1:1 Square**, and **16:9 Landscape**).
 
@@ -176,4 +176,4 @@ server {
 
 ## 📄 License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is free software: you can redistribute it and/or modify it under the terms of the **[GNU General Public License v3.0](./LICENSE)** as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
