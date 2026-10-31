@@ -1,0 +1,15 @@
+services:
+  cleanmark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cleanmark_app
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env.example
+    environment:
+      - PYTHONUNBUFFERED=1

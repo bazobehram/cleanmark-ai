@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+
+# Node / Angular
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+
+# CleanMark media data
+data/uploads/*
+!data/uploads/.gitkeep
+data/cleaned/*
+!data/cleaned/.gitkeep
+data/temp/*
+!data/temp/.gitkeep
+data/metadata/*
+!data/metadata/.gitkeep
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Archives & Temp
+*.tar.gz
+*.zip
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
